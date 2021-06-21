@@ -19,6 +19,7 @@ class LinkedList{
        if(!this.tail)
        this.tail = newNode;       
     }
+    
     print(){
         let temp = this.head;
         while(temp)
